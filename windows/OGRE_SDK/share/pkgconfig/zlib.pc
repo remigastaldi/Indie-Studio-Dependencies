@@ -1,0 +1,13 @@
+prefix=C:/Users/FLAVIEN SELLET/Documents/Ogre/build/Dependencies
+exec_prefix=C:/Users/FLAVIEN SELLET/Documents/Ogre/build/Dependencies
+libdir=C:/Users/FLAVIEN SELLET/Documents/Ogre/build/Dependencies/lib
+sharedlibdir=C:/Users/FLAVIEN SELLET/Documents/Ogre/build/Dependencies/lib
+includedir=C:/Users/FLAVIEN SELLET/Documents/Ogre/build/Dependencies/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
