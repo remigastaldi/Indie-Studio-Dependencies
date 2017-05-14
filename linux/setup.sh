@@ -25,5 +25,5 @@ cd boost_1_63_0 && ./bootstrap.sh --prefix=$START && ./b2 install && cd -
 tar -xvf cg_tool.tar.gz
 
 #OGRE
-cd ogre/ && mkdir build && cd build/ && cmake .. && make $CORE
+cd ogre/ && mkdir build && cd build/ && cmake .. && make $CORE && make install
 
