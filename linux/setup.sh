@@ -19,7 +19,7 @@ cd OIS/ && ./bootstrap && ./configure --prefix=$START && make && make install &&
 
 #BOOST
 tar -xvf boost_1_63_0.tar.bz2
-cd boost_1_63_0 && ./bootstrap.sh --prefix=$START && ./b2 install
+cd boost_1_63_0 && ./bootstrap.sh --prefix=$START && ./b2 install && cd -
 
 #CG TOOLKIT
 tar -xvf cg_tool.tar.gz
