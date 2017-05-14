@@ -13,6 +13,8 @@
 # directory, but can also be used for custom projects.
 #############################################################
 
+set(DESTINATION ../../)
+
 if(WIN32 OR APPLE)
 	set(OGRE_CMAKE_DIR "CMake")
 else()
@@ -69,7 +71,7 @@ if (APPLE)
   )
 endif ()
 
-install(FILES ${INST_FILES} DESTINATION CMAKE_CURRENT_SOURCE_DIR/../../)
+install(FILES ${INST_FILES} DESTINATION ${OGRE_CMAKE_DIR})
 if (OGRE_STATIC)
-  install(FILES ${STATIC_INST_FILES} DESTINATION CMAKE_CURRENT_SOURCE_DIR/../../)
+  install(FILES ${STATIC_INST_FILES} DESTINATION ${OGRE_CMAKE_DIR})
 endif ()
