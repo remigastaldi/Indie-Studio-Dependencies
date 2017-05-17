@@ -49,3 +49,16 @@ libs/ogg/OgreOggSound-v1.26/build/Makefile
 # Windows
 Indie-Studio.VC.db
 *.db
+linux/bin/
+
+linux/include/
+
+linux/lib/
+
+linux/share/openal/
+
+linux/share/aclocal/
+
+linux/share/
+
+linux/include/OGRE/RenderSystems/GL
