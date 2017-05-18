@@ -62,3 +62,8 @@ linux/share/aclocal/
 linux/share/
 
 linux/include/OGRE/RenderSystems/GL
+linux/rapidjson/
+
+linux/socket\.io-client-cpp/
+
+linux/websocketpp/
